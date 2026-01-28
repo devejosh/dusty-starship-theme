@@ -1,20 +1,15 @@
-Totally fair — and you didn’t miss anything.
-Up to now, we **designed the README in pieces**, but I haven’t yet handed you **one single, complete `README.md` file** that you can drop into your repo.
-
-Let’s fix that **right now**.
-
-Below is a **fully assembled, commit-ready `README.md`**, exactly reflecting *all* the decisions you made.
-You can copy-paste this as-is.
-
----
-
-## ✅ Final `README.md` (complete)
-
-````md
 # dusty
-
 A clean, opinionated Bash prompt theme built with Starship, designed for everyday terminal use and shared as a ready-to-use personal configuration.
 
+## What the prompt looks like
+
+Below is an example of how `dusty` appears in a Bash session.
+
+> The screenshot uses FiraCode Nerd Font. Matching the font will give the closest visual result.
+
+![dusty multi-line Bash prompt](./assets/screeshot.png)
+
+```
 ---
 
 ## Why this exists
@@ -227,13 +222,5 @@ Rather than pinning fonts or working around rendering issues, `dusty` adapts tho
 
 ---
 
-## What the prompt looks like
 
-Below is an example of how `dusty` appears in a Bash session.
-
-> The screenshot uses FiraCode Nerd Font. Matching the font will give the closest visual result.
-
-![dusty multi-line Bash prompt](./assets/screeshot.png)
-
-```
 
