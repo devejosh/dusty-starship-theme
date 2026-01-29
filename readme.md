@@ -70,6 +70,7 @@ I wrote and tested it on **Bash** but, it should work with most other shells.
 Check your shell:
 ```bash
 echo $SHELL
+```
 
 You should see `/bin/<your shell name>`.
 
