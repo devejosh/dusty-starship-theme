@@ -9,7 +9,7 @@ Below is an example of how `dusty` appears in a Bash session.
 
 ![dusty multi-line Bash prompt](./assets/screeshot.png)
 
-```
+
 ---
 
 ## Why this exists
@@ -70,7 +70,6 @@ I wrote and tested it on **Bash** but, it should work with most other shells.
 Check your shell:
 ```bash
 echo $SHELL
-````
 
 You should see `/bin/<your shell name>`.
 
