@@ -1,7 +1,15 @@
-# dusty
-
+# DUSTY
 A clean, opinionated Bash prompt theme built with Starship, designed for everyday terminal use and shared as a ready-to-use personal configuration.
 
+## What the prompt looks like
+
+Below is an example of how `dusty` appears in a Bash session.
+
+> The screenshot uses FiraCode Nerd Font. Matching the font will give the closest visual result.
+
+![dusty multi-line Bash prompt](./assets/screeshot.png)
+
+```
 ---
 
 ## Why this exists
@@ -17,21 +25,6 @@ After experimenting with Starship modules, layouts, and visual balance, I wanted
 
 This repository exists to share that setup with others — whether you want to use it as-is, learn from it, or adapt parts of it for your own workflow.
 
----
-
-## What `dusty` does
-
-`dusty` is a **multi-line Bash prompt** built using Starship.
-
-Instead of compressing everything into a single line, the prompt separates:
-
-- **Context** (user, host, working directory, Git state)
-- **Environment signals** (when applicable)
-- **Command input**, kept visually clean and uncluttered
-
-This theme reflects a personal workflow and makes deliberate design choices rather than exposing many on/off switches. If you are comfortable editing Starship configuration files, it can be adapted — otherwise, it is intended to be used as-is.
-
----
 
 ## Prompt structure
 
@@ -52,7 +45,7 @@ This layout improves readability and keeps focus on the command line itself.
 
 ## Git identity information
 
-When you are inside a Git repository, `dusty` displays the **configured Git user name and email address** for that repository.
+When you are inside a Git repository, it displays the **configured Git user name and email address** for that repository.
 
 This is derived from Git’s effective configuration (repository-level or global) and helps:
 
@@ -72,14 +65,14 @@ Removing it requires editing the Starship configuration file and is intended for
 Before using `dusty`, make sure the following requirements are met.
 
 ### Bash
-`dusty` is written for **Bash**.
+I wrote and tested it on **Bash** but, it should work with most other shells. 
 
 Check your shell:
 ```bash
 echo $SHELL
 ````
 
-You should see `/bin/bash`.
+You should see `/bin/<your shell name>`.
 
 ---
 
@@ -214,13 +207,4 @@ Rather than pinning fonts or working around rendering issues, `dusty` adapts tho
 
 ---
 
-## What the prompt looks like
-
-Below is an example of how `dusty` appears in a Bash session.
-
-> The screenshot uses FiraCode Nerd Font. Matching the font will give the closest visual result.
-
-![dusty multi-line Bash prompt](./assets/screeshot.png)
-
-```
 
