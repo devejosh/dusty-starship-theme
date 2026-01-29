@@ -9,6 +9,7 @@ Below is an example of how `dusty` appears in a Bash session.
 
 ![dusty multi-line Bash prompt](./assets/screeshot.png)
 
+Cloning the repository is **not required** to use this theme.
 
 ---
 
@@ -173,25 +174,7 @@ source ~/.bashrc
 
 ### 4. Open a new terminal
 
-Your prompt should now appear as a **multi-line prompt** using the `dusty` layout.
-
----
-
-## Cloning the repository (optional)
-
-If you prefer to keep the full repository locally:
-
-```bash
-git clone <repo-url>
-```
-
-Then copy the configuration file:
-
-```bash
-cp starship.toml ~/.config/starship/starship.toml
-```
-
-Cloning the repository is **not required** to use `dusty`.
+Your prompt should now appear as a **multi-line prompt** using the updated theme.
 
 ---
 
